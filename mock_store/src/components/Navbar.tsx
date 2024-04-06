@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
+import "../styles/App.css";
 
 interface NavbarProps {
   onProductListClick: () => void;

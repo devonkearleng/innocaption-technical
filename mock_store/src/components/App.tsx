@@ -6,6 +6,8 @@ import CategoriesList from "./Categories";
 import CategorySearch from "./CategoriesSearch"; 
 import ShoppingCart from "./ShoppingCart";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/App.css";
+
 
 interface Product {
   id: number;
