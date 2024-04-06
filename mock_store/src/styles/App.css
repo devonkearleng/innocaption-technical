@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #eceff4;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.stretch-button {
+  flex: 1;
+  max-width: 100%;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #007bff; /* Example background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stretch-button:hover {
+  background-color: #0056b3; /* Example hover background color */
+}
